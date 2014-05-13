@@ -15,15 +15,11 @@ namespace KasperIns.Web.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
 
@@ -41,8 +37,5 @@ namespace KasperIns.Web.Controllers
         {
             return View();
         }
-                            //        <li>@Html.ActionLink("Company Info", "CompanyInfo", "Home")</li>
-                            //<li>@Html.ActionLink("Agent Bio", "AgentBio", "Home")</li>
-                            //<li>@Html.ActionLink("Services", "Services", "Home")</li>
     }
 }

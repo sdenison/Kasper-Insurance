@@ -8,7 +8,6 @@ namespace KasperIns.Web.Controllers
 {
     public class HealthPlansController : Controller
     {
-        // GET: HealthPlans
         public ActionResult Index()
         {
             return View();
