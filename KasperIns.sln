@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasperIns.Web", "KasperIns.Web\KasperIns.Web.csproj", "{FEFC9A0E-A500-46C8-8CA6-B30BF61E6481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{35835573-CEA0-41D7-BFA5-663A650FEF49}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebAppPublishModule.psm1 = PublishScripts\AzureWebAppPublishModule.psm1
+		PublishScripts\Publish-WebApplication.ps1 = PublishScripts\Publish-WebApplication.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{98AEF56F-B8D4-41DC-96CD-A9ACCFC64C5F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\KasperInsWeb-WAWS-dev.json = PublishScripts\Configurations\KasperInsWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEFC9A0E-A500-46C8-8CA6-B30BF61E6481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFC9A0E-A500-46C8-8CA6-B30BF61E6481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFC9A0E-A500-46C8-8CA6-B30BF61E6481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFC9A0E-A500-46C8-8CA6-B30BF61E6481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98AEF56F-B8D4-41DC-96CD-A9ACCFC64C5F} = {35835573-CEA0-41D7-BFA5-663A650FEF49}
+	EndGlobalSection
+EndGlobal
